@@ -1,0 +1,282 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/*nav*/
+.nav{
+    background-color: #0D5687;
+    opacity:0.5;
+    width: 100%;
+}
+.nav_item{
+    display:flex;
+    float:left;
+    list-style:none;
+    padding:10px 56px;
+    
+}
+.nav_item_text{
+    padding-top: 10px;
+}
+.nav_link{
+    color:white;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.nav a:hover{
+    color:black;
+    text-decoration: none;
+}
+.nav_link.icon:hover{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+/*大頭照*/
+.header{
+    background-image: url(../img/img_大頭照.jpg);
+    width:1200px;
+    height:1009px;
+    margin:0 auto;
+    background-position: bottom center;
+}
+.header_title{
+    color:white;
+    font-size:4em;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.header_small_title{
+    color:white;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.header_border{
+    width: 300px;
+    border:8px solid white;
+    padding:30px;
+    position: relative;
+    top:55%;
+    left:10%;
+}
+/*關於我*/
+.school{
+    margin:0 auto;
+}
+.school_item{
+    list-style:none;
+    padding:30px 10%;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    color:#0D5687;
+}
+.mark_up{
+    width:30px;
+    height:30px;
+    border-left:8px solid #0D5687;
+    border-top:8px solid #0D5687;
+    margin:20px 20%;
+}
+
+.sayhi{
+    margin:0 auto;
+    width:50%;
+    height: 250px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.mark_down{
+    width:30px;
+    height:30px;
+    border-right:8px solid #0D5687;
+    border-bottom:8px solid #0D5687;
+    margin:20px 80%;
+}
+/*專長*/
+.exper{
+    background-image:url(../img/img_專長.jpg);
+    width: 100%;
+    height: 400px;
+}
+.exper_title{
+    color:white;
+    border:8px solid white;
+    width: 250px;
+    height: 200px;
+    padding:30px;
+    position: relative;
+    top:20%;
+    left:5%;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.exper_content{
+    list-style:none;
+    color:#0D5687;
+    font-size: 24px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.exper_content_long{
+    background-color:#0D5687;
+    height:24px;
+    display: none;
+}
+.one{
+    width: 40%;
+}
+.two{
+    width: 35%;
+}
+.three{
+    width: 37.5%;
+}
+.four{
+    width: 30%;
+}
+.five{
+    width: 42.5%;
+}
+.six{
+    width: 37.5%;
+}
+/*經歷*/
+.experience{
+    background-image:url(../img/img_經歷.jpg);
+    width: 100%;
+    height: 400px;
+    margin-bottom:20px;
+}
+.experience_title{
+    color:white;
+    border:8px solid white;
+    width: 250px;
+    height: 200px;
+    padding:30px;
+    position: relative;
+    top:20%;
+    left:5%;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.ExperienceArea{
+    width:100%;
+    height:100%;
+    margin:0;
+}
+.ExperienceArea_Column{
+    padding: 0;
+    margin:0;
+}
+
+.experience_item_Test{
+    width:100%;
+    height: 100%;
+    margin:0;
+}
+.blue{
+    background-color: rgb(48, 120, 168) ;
+}
+.experience_item_Test h3{
+    width:100%;
+    height: 100%;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:white;
+    padding:100px;
+    margin:0;
+}
+.experience_img :hover{
+    background-color:black ;
+    opacity:0.5;
+}
+/*作品集*/
+.project{
+    background-image:url(../img/img_作品集.jpg);
+    width: 100%;
+    height: 400px;
+    margin-top:20px;
+}
+.project_title{
+    color:white;
+    border:8px solid white;
+    width: 250px;
+    height: 200px;
+    padding:30px;
+    position: relative;
+    top:20%;
+    left:5%;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.project_Area{
+    width:100%;
+    height:100%;
+    margin:0;
+}
+.project_column{
+    padding:0;
+}
+.project_a:hover{
+    background-color:black ;
+    opacity:0.5;
+
+}
+.project_item_left{
+    padding-top:20px;
+    width:100%;
+    height: 50%;
+}
+.project_item_rightone{
+    padding-top:20px;
+    width:100%;
+    height: 33.3%;
+}
+  
+.project_item_right{
+    padding-top:10px;
+    width:100%;
+    height: 33.3%;
+}
+/*footer*/
+.footer{
+    background-color: rgb(43, 114, 161);
+    margin-top:20px;
+}
+.footer_item{
+    margin: auto;
+}
+.connection{
+    list-style:none;
+    line-height:1.7;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.goback{
+    padding:30px;
+    list-style:none;
+    line-height:1.7;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-decoration: none;
+    
+}
+.goback_a{
+    color:#212529;
+    
+}
+.iconarea{
+    margin:10px;
+
+}
+.copyright p{
+    margin:0;
+    text-align: center;
+}
+.container{
+    max-width: 1200px;
+    padding:0;
+}
+.black{
+    background-color:gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

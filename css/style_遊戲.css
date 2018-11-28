@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/*nav*/
+.nav{
+    background-color:rgb(140, 204, 44);
+    opacity:0.5;
+    width: 100%;
+}
+.nav_item{
+    display:flex;
+    float:left;
+    list-style:none;
+    padding:10px 56px;
+}
+.nav_item_text{
+    padding-top: 10px;
+}
+.nav_link{
+    color:rgb(17, 65, 17);
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.nav a:hover{
+    color:black;
+    text-decoration: none;
+}
+.nav_link.icon:hover{
+    width: 50px;
+    height: 50px;
+    background-color:rgb(17, 65, 17);
+}
+/*title*/
+.title{
+    background-image: url(../img/img_遊戲_title.jpeg);
+    width: 100%;
+    height: 500px;
+    margin:0 auto;
+}
+.title_text{
+    color:white;
+    border:8px solid white;
+    width: 250px;
+    height: 200px;
+    padding:30px;
+    position: relative;
+    top:20%;
+    left:5%;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+/*內文*/
+p{
+    color:rgb(140, 204, 44);
+    font-size:20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    padding:20%;
+}
+.inner_col{
+    margin:5% 0;
+    width: 100%;
+    height: 356px;
+}

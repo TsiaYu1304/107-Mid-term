@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/*nav*/
+.nav{
+    background-color:gray;
+    opacity:0.5;
+    width: 100%;
+}
+.nav_item{
+    display:flex;
+    float:left;
+    list-style:none;
+    padding:10px 56px;
+}
+.nav_item_text{
+    padding-top: 10px;
+}
+.nav_link{
+    color:white;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.nav a:hover{
+    color:black;
+    text-decoration: none;
+}
+.nav_link.icon:hover{
+    width: 50px;
+    height: 50px;
+    background-color:black;
+}
+/*title*/
+.title{
+    background-image: url(../img/img_素描_title.jpeg);
+    width: 100%;
+    height: 500px;
+    margin:0 auto;
+}
+.title_text{
+    color:white;
+    border:8px solid white;
+    width: 250px;
+    height: 200px;
+    padding:30px;
+    position: relative;
+    top:20%;
+    left:5%;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+/*內文*/
+.pic_A{
+    background-image:url(../img/img_素描_彈珠.JPG);
+    width: 100%;
+    height:259px;
+}
+.pic_B{
+    background-image:url(../img/img_素描_美術館.jpg);
+    width:100%;
+    height: 566px;
+}
+.pic_C{
+    background-image:url(../img/img_素描_舊校舍.jpg);
+    width: 100%;
+    height: 566px;
+}
+.pic_A p{
+    color:white;
+    padding:10px;
+    font-family: 'Noto Sans TC', sans-serif;
+    z-index: 10;
+}
+.pic_A :hover{
+    background-color: black;
+    opacity: 0.5;    
+}
+.pic_B p{
+    color:white;
+    padding:10px;
+    font-family: 'Noto Sans TC', sans-serif;
+    z-index: 10;
+}
+.pic_B :hover{
+    background-color: black;
+    opacity: 0.5;    
+}
+.pic_C p{
+    color:white;
+    padding:10px;
+    font-family: 'Noto Sans TC', sans-serif;
+    z-index: 10;
+}
+.pic_C :hover{
+    background-color: black;
+    opacity: 0.5;    
+}
+.inner_pic{
+    margin:5% 0;
+}
